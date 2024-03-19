@@ -1,0 +1,14 @@
+//To make parabola 
+
+clc;clear;clf;
+x=0:1:360;
+y=sind(x);
+plot(x,y);
+scatter(x,y);
+xtitle("Sine function","X","Sin(X)");
+legend("Sin(X)")
+y=sind(x);
+z=cosd(x)
+plot(x,y,x,z);
+scatter(x,y,x,z);
+legend("Sin(X)","Cos(X)")
